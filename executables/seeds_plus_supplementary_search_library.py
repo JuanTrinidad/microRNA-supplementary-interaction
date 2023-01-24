@@ -237,12 +237,6 @@ def usoREGEXP(microRNAname, mRNAregion):
    
 
 
-# In[17]:
-
-
-#usoREGEXP('hsa-miR-301b-3p', 'CDS')
-
-
 # In[ ]:
 
 
@@ -411,34 +405,6 @@ def buscarDesdeElmRNABlancos(gen_de_interes):
     
     
 
-
-# In[14]:
-
-
-buscarDesdeElmRNABlancos('AGO2|ENST00000220592.10|protein_coding|3UTR')
-
-
-# ## def fastatooneline(fastafile):
-#     
-#     file = open(fastafile, 'r')
-#     
-#     outputname= fastafile + '_oneline.txt'
-#     
-#     print(outputname)
-# 
-#     output= open(outputname, 'w')
-#     
-#     
-#     for i in file.readlines():
-#         if i.startswith('>'):
-#             output.write('\n')
-#             output.write(i)
-# 
-#         else:
-#             output.write(i.strip())
-#             
-#     
-#     
 
 # In[ ]:
 
